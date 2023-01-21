@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 1fr 0fr;
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: crimson;
+    display: inline-block;
+    box-shadow: 0 0 15px inset grey;
+}
+
+.logo {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0 10px white;
+    display: flex;
+    justify-content: center;
+    animation: cambiaColor 4s infinite alternate;
+
+    @keyframes cambiaColor {
+        from {
+            color: black;
+        }
+
+        to {
+            color: white;
+        }
+    }
+}
+
+
+.navbar {
+    justify-content: center;
+
+    ul li {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        list-style: none;
+        display: inline;
+        text-align: left;
+
+    }
+
+    li a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    a:hover {
+        color: black;
+        text-decoration: underline #fff;
+    }
+}
+
+.main {
+    height: 560px;
+    width: 100%;
+    background-image: url(./imágenes/tool-2820950.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main1 {
+    h1 {
+        color: darkorange;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        text-shadow: 0 0 5px black;
+        animation: pulse;
+        animation-duration: 4s;
+    }
+
+    p {
+        color: gold;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        text-shadow: 0 0 5px black;
+        animation: pulse;
+        animation-duration: 4s;
+    }
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.item {
+    height: 130px;
+    width: auto;
+    margin: 5px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.item1 {
+    background-image: url(./imágenes/img33.jpg);
+    grid-column: 1/4;
+
+}
+
+.item2 {
+    background-image: url(./imágenes/gas-stove-7075036.jpg);
+
+}
+
+.item3 {
+    background-image: url(./imágenes/img333.jpg);
+    grid-column: 2/4;
+
+
+}
+
+.item4 {
+    background-image: url(./imágenes/plomero.jpg);
+    grid-column: 1/4;
+}
+
+.mainNosotros {
+    h1 {
+        color: darkorange;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        text-shadow: 0 0 5px black;
+        animation: pulse;
+        animation-duration: 4s;
+    }
+
+    p {
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 0 0 5px black;
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+.nosotrosFoto {
+    height: 250px;
+    margin: 10px;
+    background-image: url(./imágenes/Nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+
+}
+
+.mainServicios {
+    h1 {
+        color: darkorange;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        text-shadow: 0 0 5px black;
+        animation: pulse;
+        animation-duration: 4s;
+    }
+
+    p {
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 0 0 5px black;
+        margin: 10px;
+        text-align: center;
+
+    }
+
+    li {
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 0 0 5px black;
+        margin: 10px;
+    }
+}
+
+.mainGalería {
+    h1 {
+        color: darkorange;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        text-shadow: 0 0 5px black;
+        animation: pulse;
+        animation-duration: 4s;
+    }
+
+    p {
+        color: gold;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        text-shadow: 0 0 5px black;
+    }
+}
+
+.carousel {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.mainContacto {
+    height: 500px;
+
+    h1 {
+        color: darkorange;
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        text-shadow: 0 0 5px black;
+        animation: pulse 4s infinite;
+    }
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    color: gold;
+    text-shadow: 0 0 5px black;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.button {
+    height: 30px;
+    background-color: gold;
+    border-radius: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+    color: #fff;
+
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: crimson;
+    box-shadow: inset 0 0 10px orangered;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    box-shadow: 0 0 15px inset grey;
+
+    h5 {
+        text-align: center;
+        color: white;
+        animation: pulse 4s infinite;
+
+    }
+
+    div {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        color: white;
+
+
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    
+
+
+}
