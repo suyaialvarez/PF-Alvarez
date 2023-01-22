@@ -63,7 +63,7 @@
 }
 
 .main {
-    height: 560px;
+    height: 570px;
     width: 100%;
     background-image: url(./imágenes/tool-2820950.jpg);
     background-size: cover;
@@ -152,6 +152,10 @@
         text-shadow: 0 0 5px black;
         margin: 10px;
         text-align: center;
+    }
+
+    i {
+        height: 20px;
     }
 }
 
@@ -286,8 +290,137 @@
     }
 }
 
-@media only screen and (min-width: 780px) {
-    
+@media only screen and (min-width: 480px) and (max-width:779px) {
+
+    .navbar ul li {
+        font-size: 20px;
+    }
+
+    .header {
+        height: 90px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .d-block {
+        padding: 10px;
+        height: 430px;
+        width: 450px;
+    }
+
+    .nosotrosFoto {
+        height: 350px;
+        width: 700px;
+        justify-content: center;
+        margin: auto;
 
 
+    }
+
+    .fotos {
+        margin: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 500px;
+        height: 400px;
+        margin: auto;
+    }
 }
+
+@media only screen and (min-width:780px) and (max-width:1023px) {
+    .header {
+        height: 100px;
+    }
+
+    .navbar ul li {
+        font-size: 25px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .fotos {
+        margin: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 500px;
+        height: 400px;
+        margin: auto;
+    }
+
+    .d-block {
+        padding: 10px;
+        height: 400px;
+        width: 780px;
+    }
+
+    .nosotrosFoto {
+        height: 350px;
+        width: 700px;
+        justify-content: center;
+        margin: auto;
+
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1199px) {
+    .header {
+        height: 110px;
+    }
+
+    .navbar ul li {
+        font-size: 30px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .fotos {
+        margin: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 500px;
+        height: 400px;
+        margin: auto;
+    }
+
+    .d-block {
+        padding: 10px;
+        height: 430px;
+        width: 700px
+    }
+
+    .nosotrosFoto {
+        height: 350px;
+        width: 700px;
+        justify-content: center;
+        margin: auto;
+
+
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1400px) {
+    .nosotrosFoto {
+        height: 350px;
+        width: 700px;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    .d-block {
+        padding: 10px;
+        height: 430px;
+        width: 700px
+    }
+
+    .fotos {
+        width: 500px;
+        height: 400px;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+ }
