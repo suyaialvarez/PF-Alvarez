@@ -69,7 +69,7 @@
 .main {
   height: 570px;
   width: 100%;
-  background-image: url(./imágenes/tool-2820950.jpg);
+  background-image: url(./imágenes/tool-2820950-min.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -116,21 +116,21 @@
 }
 
 .item1 {
-  background-image: url(./imágenes/img33.jpg);
+  background-image: url(./imágenes/img33-min.jpg);
   grid-column: 1/4;
 }
 
 .item2 {
-  background-image: url(./imágenes/gas-stove-7075036.jpg);
+  background-image: url(./imágenes/gas-stove-7075036-min.jpg);
 }
 
 .item3 {
-  background-image: url(./imágenes/img333.jpg);
+  background-image: url(./imágenes/img333-min.jpg);
   grid-column: 2/4;
 }
 
 .item4 {
-  background-image: url(./imágenes/plomero.jpg);
+  background-image: url(./imágenes/plomero-min.jpg);
   grid-column: 1/4;
 }
 
@@ -160,7 +160,7 @@
 .nosotrosFoto {
   height: 250px;
   margin: 10px;
-  background-image: url(./imágenes/Nosotros.jpg);
+  background-image: url(./imágenes/building-2748841-min.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 10px;
